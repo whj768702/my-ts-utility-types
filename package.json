@@ -1,0 +1,26 @@
+{
+  "name": "my-ts-utility-types",
+  "version": "1.0.0",
+  "description": "ts types utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whj768702/my-ts-utility-types.git"
+  },
+  "keywords": [
+    "ts",
+    "types"
+  ],
+  "author": "whj768702",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whj768702/my-ts-utility-types/issues"
+  },
+  "homepage": "https://github.com/whj768702/my-ts-utility-types#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
