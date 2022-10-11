@@ -13,10 +13,8 @@
  * }
  * // Result为string|number
  * type Result = ExtractType<Test1, Test2>
- * 
- *   // Expect: { reqUndef: number | undefined; opt?: string; }
- *   type Props = OmitByValue<Props, number>;
- *   // Expect: { opt?: string; }
- *   type Props = OmitByValue<Props, number | undefined>;
  */
-type ExtractType<T, U> = T[keyof T & keyof U] | U[keyof T & keyof U];
+
+type ExtractType<T, U> = T[keyof T & keyof U] | U[keyof T & keyof U]
+
+export default ExtractType;
