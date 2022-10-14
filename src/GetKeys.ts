@@ -1,6 +1,6 @@
 /**
  * GetKeys
- * @desc 获取key的集合
+ * @desc 获取key的集合(只获取一级)
  * @example
  * type Test = {
  *   age: string;
@@ -10,6 +10,6 @@
  * type Result = GetKeys<Test>
  */
 
-type GetKeys<T> = keyof T;
+type GetKeys<T> = T extends object ? keyof T : never;
 
 export default GetKeys;
